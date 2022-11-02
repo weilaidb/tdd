@@ -1,5 +1,7 @@
 #include "gmock/gmock.h"
 #include "Tweet.h"
+#include <cassert>
+#include <gtest/gtest.h>
 #include <string>
 
 using namespace ::testing;
@@ -57,6 +59,8 @@ TEST(ATweet, RequiresUserToStartWithAtSign) {
    string invalidUser("notStartingWith@");
 
    ASSERT_ANY_THROW(Tweet tweet("msg", invalidUser));
+   ASSERT_ANY_THROW(Tweet tweet2("msg", "lala"));
+   // ASSERT_ANY_THROW(1!=1);
 }
 
 TEST(ATweet, RequiresUserToStartWithAnAtSign) {

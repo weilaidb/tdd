@@ -1,6 +1,7 @@
 #include "gmock/gmock.h"
 #include "RetweetCollection.h"
 #include "Tweet.h"
+#include "stdio.h"
 
 using namespace ::testing;
 

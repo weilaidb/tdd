@@ -1,4 +1,7 @@
 #include <string>
+#include <iostream>
+
+
 
 class Soundex
 {

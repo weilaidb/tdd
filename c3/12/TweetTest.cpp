@@ -1,6 +1,8 @@
 #include "gmock/gmock.h"
 #include "Tweet.h"
 #include <string>
+#include "Tweet.h"
+
 
 using namespace ::testing;
 using namespace std;

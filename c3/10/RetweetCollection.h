@@ -33,6 +33,12 @@ public:
       empty_ = true;
    }
 
+   void diagShow()
+
+   {
+       return;
+   }
+
 private:
    bool empty_;
 };
